@@ -1,0 +1,4 @@
+fun main(){
+    var nome_de_carro = "Fusca"
+    println(nome_de_carro)
+}
