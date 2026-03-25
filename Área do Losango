@@ -1,0 +1,8 @@
+fun main(){
+    println("Diagonal maior: ")
+    var maior = readLine()!!.toDouble()
+    println("Diagonal menor: ")
+    var menor = readLine()!!.toDouble()
+    var area = maior * menor / 2
+    println("Area: $area")
+}
