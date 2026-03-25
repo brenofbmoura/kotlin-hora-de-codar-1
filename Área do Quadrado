@@ -1,0 +1,6 @@
+fun main(){
+    println("Informe um lado: ")
+    var lado = readLine()!!.toDouble()
+    var area = lado * lado
+    println("Área: $area²")
+}
