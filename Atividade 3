@@ -1,0 +1,7 @@
+fun main(){
+    print ("Informe seu nome: ")
+    var nome = readLine()!!
+    print("Informe sua idade: ")
+    var idade = readLine()!!.toInt()
+    println ("Olá, $nome, sua idade é $idade.")
+}
