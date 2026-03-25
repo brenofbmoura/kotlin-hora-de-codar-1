@@ -1,0 +1,5 @@
+fun main(){
+    print ("Informe seu nome: ")
+    var nome = readln()!!
+    println ("Olá, $nome.")
+}
