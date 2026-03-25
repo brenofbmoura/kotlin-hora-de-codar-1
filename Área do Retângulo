@@ -1,0 +1,8 @@
+fun main(){
+    print ("Informe a base: ")
+    var base = readLine()!!.toDouble()
+    print ("Informe a altura: ")
+    var altura = readLine()!!.toDouble()
+    var area = base * altura
+    println ("Área: $area")
+}
