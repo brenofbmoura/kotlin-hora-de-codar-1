@@ -1,0 +1,7 @@
+fun main (){
+    var pi = Math.PI
+    println("Raio: ")
+    var raio = readLine()!!.toDouble()
+    var area = pi * raio * raio
+    println("Área: $area")
+}
